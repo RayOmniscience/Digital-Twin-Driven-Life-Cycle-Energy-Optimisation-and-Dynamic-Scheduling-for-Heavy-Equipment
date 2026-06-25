@@ -328,7 +328,7 @@ h_bar(1).FaceColor = [0.8 0.4 0.4];
 h_bar(2).FaceColor = [0.4 0.6 0.9];
 set(gca, 'XTickLabel', metrics, 'FontSize', 11, 'XTickLabelRotation', 45);
 ylabel('Relative Performance Index', 'FontSize', 14);
-%title('Comparison of Overall Performance Indicators of DT System', 'FontSize', 16, 'FontWeight', 'bold');
+title('Comparison of Overall Performance Indicators of DT System', 'FontSize', 16, 'FontWeight', 'bold');
 legend('Traditional Baseline', 'DT System Improvement', 'Location', 'northeast', 'FontSize', 12);
 grid off;
 set(gca, 'LineWidth', 2);
